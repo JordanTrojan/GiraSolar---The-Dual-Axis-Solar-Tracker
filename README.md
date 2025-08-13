@@ -1,2 +1,7 @@
 # GiraSolar---The-Dual-Axis-Solar-Tracker
-The affordable dual axis solar system that hold up to three solar panels and inceases efficiency by 43% throughout the day. It also allows for manual movement and shutdown.
+The affordable dual axis solar system that hold up to three solar panels and inceases efficiency by 43% throughout the day. 
+The GiraSolar Dual-Axis Tracking Project is an advanced solar tracking system designed to maximize photovoltaic efficiency by keeping the solar panel at the optimal orientation relative to the sun’s position throughout the day and across the seasons. The system operates with a north–south tilt range of 30° to 105° and an east–west rotation range of 45° to 135°, ensuring maximum sunlight exposure from early morning to late afternoon while also maintaining optimal seasonal alignment.
+
+An Arduino Uno microcontroller serves as the control hub, running a custom tracking algorithm. Sun position is determined using an array of photoresistor (LDR) light sensors arranged in a cross-pattern to detect directional light differences. Movement is provided by two high-torque linear actuators—one for NS tilt and one for EW rotation—each driven by a BTS7960 motor driver module for smooth and precise positioning.
+
+The system is powered via a solar charge controller connected to the main panel and battery, ensuring reliable operation in off-grid conditions. To protect the mechanics, limit switches and programmed motion boundaries prevent overextension of the actuators. The frame is made from rigid, lightweight materials, designed for stability under outdoor conditions but not intended for rain or water exposure; as such, the electronics and actuators require a sheltered or dry environment for operation and longevity.
